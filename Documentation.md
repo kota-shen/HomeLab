@@ -17,6 +17,6 @@ Ce Homelab a pour but de :
 
 ## 🚀 Mise en oeuvre
 
-Installation de [Proxmox](HomeLab/Proxmox)
+Installation de [Proxmox](https://github.com/kota-shen/HomeLab/blob/main/Proxmox.md)
 
 ![[Diagramme infra1.png]]
