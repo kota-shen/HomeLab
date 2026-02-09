@@ -19,4 +19,4 @@ Ce Homelab a pour but de :
 
 Installation de [Proxmox](https://github.com/kota-shen/HomeLab/blob/main/Proxmox.md)
 
-![[Diagramme infra1.png]]
+![[Diagramme infra1.png]](https://github.com/kota-shen/HomeLab/blob/main/Images/Diagramme%20infra1.png)
