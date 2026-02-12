@@ -29,7 +29,7 @@ Matériel : PC :
 
 <img src="https://github.com/kota-shen/HomeLab/blob/main/Images/Diagramme%20infra1.png">
 
-Installation de [[HomeLab/Proxmox|Proxmox]]
+Installation de [[Proxmox.md]]
 
 Infrastructure au 02-02-2026
 
