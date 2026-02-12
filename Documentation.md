@@ -33,8 +33,8 @@ Installation de <a href="Proxmox.md">Proxmox</a>
 
 Infrastructure au 02-02-2026
 
-Installation de [[Windows]]
-Installation d'[Ubuntu](Ubuntu.md)
-Installation de [Fedora](Fedora.md)
+Installation de <a href="Windows.md">Windows</a>
+Installation d'<a href="Ubuntu.md">Ubuntu</a>
+Installation de<a href="Fedora.md">Fedora</a>
 
 ![[Diagramme infra2.png]]
