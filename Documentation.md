@@ -17,6 +17,23 @@ Ce Homelab a pour but de :
 
 ## 🚀 Mise en oeuvre
 
-Installation de [Proxmox](https://github.com/kota-shen/HomeLab/blob/main/Proxmox.md)
+- Création d'un fichier d'inventaire prévu pour être importé dans un outil de gestion des assets (Jira, GLPI, ServiceNow)
+- Création d'un diagramme pour le réseau
 
-![[Diagramme infra1.png]](https://github.com/kota-shen/HomeLab/blob/main/Images/Diagramme%20infra1.png)
+Matériel : PC :
+- Intel I9 12900k
+- 64Go RAM DDR5
+- 1Tb disk (proxmox)
+
+
+
+![[Diagramme infra1.png]]
+
+Infrastructure au 02-02-2026
+
+Installation de [[HomeLab/Proxmox|Proxmox]]
+Installation de [[Windows]]
+Installation d'[Ubuntu](Ubuntu.md)
+Installation de [Fedora](Fedora.md)
+
+![[Diagramme infra2.png]]
