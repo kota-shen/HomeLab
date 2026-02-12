@@ -27,14 +27,20 @@ Matériel : PC :
 
 
 
-<img src="Images/Diagramme%20infra1.png">
+![[Diagramme infra1.png]]
 
-Installation de <a href="Proxmox.md">Proxmox</a>
+Installation de [[HomeLab/Proxmox|Proxmox]]
 
 Infrastructure au 02-02-2026
 
-Installation de <a href="Windows.md">Windows</a><br>
-Installation d'<a href="Ubuntu.md">Ubuntu</a><br>
-Installation de <a href="Fedora.md">Fedora</a><br>
+Installation de [[Windows]]
+Installation d'[Ubuntu](Ubuntu.md)
+Installation de [Fedora](Fedora.md)
 
-<img src="Images/Diagramme%20infra2.png">
+![[Diagramme infra2.png]]
+
+Infrastructure au 03-02-2026
+
+Installation de [[Tailscale]]
+
+![[Diagramme infra3.png]]
