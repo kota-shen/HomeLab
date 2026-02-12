@@ -29,9 +29,10 @@ Matériel : PC :
 
 ![[Diagramme infra1.png]]
 
+Installation de [[HomeLab/Proxmox|Proxmox]]
+
 Infrastructure au 02-02-2026
 
-Installation de [[HomeLab/Proxmox|Proxmox]]
 Installation de [[Windows]]
 Installation d'[Ubuntu](Ubuntu.md)
 Installation de [Fedora](Fedora.md)
