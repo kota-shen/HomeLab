@@ -192,4 +192,4 @@ systemctl restart dnsmasq
 systemctl enable dnsmasq
 ```
 
-<img src="Proxmox_network.png">
+<img src="Images/Proxmox_network.png">
