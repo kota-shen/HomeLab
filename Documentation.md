@@ -27,7 +27,7 @@ Matériel : PC :
 
 
 
-<img src="https://github.com/kota-shen/HomeLab/blob/main/Images/Diagramme%20infra1.png">
+<img src="Images/Diagramme%20infra1.png">
 
 Installation de <a href="Proxmox.md">Proxmox</a>
 
@@ -37,4 +37,4 @@ Installation de <a href="Windows.md">Windows</a><br>
 Installation d'<a href="Ubuntu.md">Ubuntu</a><br>
 Installation de <a href="Fedora.md">Fedora</a><br>
 
-<img src="https://github.com/kota-shen/HomeLab/blob/main/Images/Diagramme%20infra2.png">
+<img src="Images/Diagramme%20infra2.png">
