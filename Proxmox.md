@@ -85,14 +85,79 @@ Création d'un vmbr0 qui agira comme un NAT, wlpXs0 étant la connection interne
 
 Dans le shell proxmox:
 
-```
 nano /etc/network/interfaces
+
+```
+iface enp4s0 inet static
+        address x.x.x.x/24
+
+auto vmbr0
+iface vmbr0 inet static
+    address x.x.x.x/24
+    bridge-ports enpxs0
+    bridge-stp off
+    bridge-fd 0
+```
+
+## Activation du forwarding IP
+
+```
+echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
+sysctl -p
+```
+
+## Activation du NAT (iptables)
+
+```
+iptables -t nat -A POSTROUTING -s x.x.x.x/24 -o wlpxs0 -j MASQUERADE
+iptables -A FORWARD -i enp3s0 -o wlpxs0 -j ACCEPT
+iptables -A FORWARD -i wlp5s0 -o enpxs0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+
 ```
 
 ```
-auto lo
-iface lo inet loopback
+nano /etc/dnsmasq.d/lan.conf
 
+# Interface LAN (bridge ou ethernet)
+interface=vmbr0
+bind-interfaces
+
+# Plage DHCP + bail de 12h
+dhcp-range=192.168.1.50,192.168.1.150,12h
+
+# Gateway (host Proxmox)
+dhcp-option=3,192.168.1.1
+
+# DNS (host + fallback)
+dhcp-option=6,192.168.1.1,1.1.1.1
+
+```
+
+```
+systemctl restart dnsmasq
+systemctl status dnsmasq
+```
+
+## NAT vers Wi-FI (rappel)
+
+```
+iptables -t nat -A POSTROUTING -s x.x.x.x/24 -o wlpXs0 -j MASQUERADE
+```
+
+# Interface Wi-Fi (WAN)
+
+```
+allow-hotplug wlpXs0
+iface wlpXs0 inet dhcp
+	wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+	
+# Bridge LAN pour VM
+auto vmbr0
+iface vmbr0 inet static
+	address 192.168.1.1/24
+	bridge-ports enp4s0
+	bridge-stp off
+	bridge-fd 0
 # Interface Wi-Fi (WAN)
 allow-hotplug wlpXs0
 iface wlpXs0 inet dhcp
@@ -191,5 +256,6 @@ dhcp-option=6,X.X.X.1,1.1.1.1
 systemctl restart dnsmasq
 systemctl enable dnsmasq
 ```
+
 
 <img src="Images/Proxmox_network.png">
