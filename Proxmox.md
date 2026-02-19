@@ -67,7 +67,7 @@ update-grub
 
 Désactivation du dépôt entreprise
 
-![[proxmox1.png]]
+<img src="Images/proxmox1.png">
 
 
 
