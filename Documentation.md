@@ -47,18 +47,18 @@ Diagramme au 19/02/2026
 
 ### 2.2 Proxmox
 
-Installation de <a href="Proxmox">Proxmox</a>
+Installation de <a href="Proxmox.md">Proxmox</a>
 
 ### 2.3 Réseau
 
-Configuration <a href="Réseau">Réseau</a>
-Configuration <a href="pfsense">pfSense</a>
+Configuration <a href="Réseau.md">Réseau</a>
+Configuration <a href="pfsense.md">pfSense</a>
 ### 2.4 Services
 
-Configurations des <a href="Services">Services</a>
+Configurations des <a href="Services.md">Services</a>
 
 ### 2.5 Machines virtuelles
 
-Installation d'une machine <a href="Windows">Windows</a>
-Installation d'une machine <a href="Ubuntu">Ubuntu</a>
-Installation d'une machine <a href="Fedora">Fedora</a>
+Installation d'une machine <a href="Windows.md">Windows</a>
+Installation d'une machine <a href="Ubuntu.md">Ubuntu</a>
+Installation d'une machine <a href="Fedora.md">Fedora</a>
