@@ -10,16 +10,15 @@ Déploiement d'une machine pfSense avec les spécifications suivantes :
 - Hard drive : SATA 32Go
 - vNIC : vmbr0 (WAN) - vmbr1 (Trunk)
 
-![[pfsense1.png]]
-![[pfsense2.png]]
-![[pfsense3.png]]
-![[pfsense4.png]]
-![[pfsense5.png]]
-![[pfsense6.png]]
-![[pfsense7.png]]
-![[pfsense8.png]]
-![[pfsense9.png]]
-![[pfsense10.png]]
-![[pfsense11.png]]
-![[pfsense12.png]]
-
+<img src="Images/pfsense1.png">
+<img src="Images/pfsense2.png">
+<img src="Images/pfsense3.png">
+<img src="Images/pfsense4.png">
+<img src="Images/pfsense5.png">
+<img src="Images/pfsense6.png">
+<img src="Images/pfsense7.png">
+<img src="Images/pfsense8.png">
+<img src="Images/pfsense9.png">
+<img src="Images/pfsense10.png">
+<img src="Images/pfsense11.png">
+<img src="Images/pfsense12.png">
