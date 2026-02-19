@@ -36,29 +36,29 @@ A venir :
 ### 2.1 Diagramme infrastructure
 
 
-![[Diagramme infra.18-02-2026.png]]
+<img src="Images/Diagramme infra.18-02-2026.png">
 Diagramme au 17/02/2026
 
-![[Diagramme infra.19-02-2026.png]]
+<img src="Images/Diagramme infra.19-02-2026.png">
 Diagramme au 18/02/2026
 
-![[Diagramme infra.20-02-2026.png]]
+<img src="Images/Diagramme infra.20-02-2026.png">
 Diagramme au 19/02/2026
 
 ### 2.2 Proxmox
 
-Installation de [[Proxmox]]
+Installation de <a href="Proxmox">Proxmox</a>
 
 ### 2.3 Réseau
 
-Configuration [[Réseau]]
-
+Configuration <a href="Réseau">Réseau</a>
+Configuration <a href="pfsense">pfSense</a>
 ### 2.4 Services
 
-Configurations des  [[Services]]
+Configurations des <a href="Services">Services</a>
 
 ### 2.5 Machines virtuelles
 
-Installation d'une machine [[Windows]]
-Installation d'une machine [[Ubuntu]]
-Installation d'une machine [[Fedora]]
+Installation d'une machine <a href="Windows">Windows</a>
+Installation d'une machine <a href="Ubuntu">Ubuntu</a>
+Installation d'une machine <a href="Fedora">Fedora</a>
