@@ -1,46 +1,64 @@
-# Documentation Proxmox – Homelab
 
-Documentation technique pour l’installation, la configuration
-et l’exploitation d’un serveur Proxmox VE en environnement personnel.
+# 🏠 Homelab – Documentation d’Infrastructure
 
-## 🎯 Objectif
-
-Ce Homelab a pour but de :
-- comprendre la mise en oeuvre d'un hyperviseur de type 1 (Proxmox)
-- apprendre la virtualisation
-
-## 👤 Public cible
-
-- Administrateurs système débutants
-- Utilisateurs de homelab
-- Étudiants / autodidactes Linux
-
-## 🚀 Mise en oeuvre
-
-- Création d'un fichier d'inventaire prévu pour être importé dans un outil de gestion des assets (Jira, GLPI, ServiceNow)
-- Création d'un diagramme pour le réseau
-
-Matériel : PC :
-- Intel I9 12900k
-- 64Go RAM DDR5
-- 1Tb disk (proxmox)
+## 1. Introduction
 
 
+Création et mise en oeuvre d'un homelab orienté support IT/Helpdesk/Cybersécurité
 
-<img src="Images/Diagramme infra1.png">
+### 1.1 Objectif du Homelab
 
-Installation de <a href="Proxmox.md">Proxmox</a>
+Permettre la mise en pratique et l'apprentissage dans divers domaine tel que les systèmes, le développement (python principalement), le réseau, la cybersécurité (offensive, défensive et GRC/Compliance)
 
-Infrastructure au 02-02-2026
+### 1.2 Contexte et motivations
 
-Installation de <a href="Windows.md">Windows</a><br>
-Installation d'<a href="Ubuntu.md">Ubuntu</a><br>
-Installation de <a href="Fedora.md">Fedora</a><br>
+Etant en cours d'étude afin de devenir formateur accrédité CISCO ainsi que pour pouvoir passer diverses certifications en cybersécurité, je souhaite en apprendre d'avantage.
 
-<img src="Images/Diagramme infra2.png">
+### 1.3 Périmètre actuel
 
-Infrastructure au 03-02-2026
+Ce homelab se fera sur une machine basée sur 1 I9 12900k avec 64 Go RAM embarquant proxmox par dessus une debian.
 
-Installation de <a href="Tailscale.md">Tailscale</a>
+A l'heure actuelle ce qui est déployé
 
-<img src="Images/Diagramme infra3.png">
+- Debian 12
+- Proxmox
+- VM clientes (Windows/Linux/Mac/android)
+- Services (DHCP, DNS, NAS)
+
+A venir :
+
+- infrastructure réseau Cisco (eve-ng)
+- Domain Controller
+- glpi
+
+## 2. Mise en oeuvre
+
+### 2.1 Diagramme infrastructure
+
+
+![[Diagramme infra.18-02-2026.png]]
+Diagramme au 17/02/2026
+
+![[Diagramme infra.19-02-2026.png]]
+Diagramme au 18/02/2026
+
+![[Diagramme infra.20-02-2026.png]]
+Diagramme au 19/02/2026
+
+### 2.2 Proxmox
+
+Installation de [[Proxmox]]
+
+### 2.3 Réseau
+
+Configuration [[Réseau]]
+
+### 2.4 Services
+
+Configurations des  [[Services]]
+
+### 2.5 Machines virtuelles
+
+Installation d'une machine [[Windows]]
+Installation d'une machine [[Ubuntu]]
+Installation d'une machine [[Fedora]]

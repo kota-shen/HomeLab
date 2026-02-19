@@ -1,6 +1,4 @@
 
-# 02-02-2026
-
 ## Installation de Fedora 43
 
 Déploiement d'une machine Fedora 43 avec les spécifications suivantes :
@@ -9,9 +7,9 @@ Déploiement d'une machine Fedora 43 avec les spécifications suivantes :
 - RAM : 4 GB
 - Hard drive : SATA 80Go
 
-<img src="Images/fedora1.png">
-<img src="Images/fedora2.png">
-<img src="Images/fedora3.png">
-<img src="Images/fedora4.png">
-<img src="Images/fedora5.png">
-<img src="Images/fedora6.png">
+![[fedora1.png]]
+![[fedora2.png]]
+![[fedora3.png]]
+![[fedora4.png]]
+![[fedora5.png]]
+![[fedora6.png]]
