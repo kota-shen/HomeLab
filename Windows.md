@@ -21,3 +21,18 @@
 <img src="Images/windows10-19.png">
 <img src="Images/windows10-20.png">
 <img src="Images/windows10-21.png">
+
+
+Installation d'applications pour les opérations
+
+- 7zip
+- Brave browser
+- Notepad++
+- Putty
+- Teams
+- LibreOffice
+- Obsidian
+
+Mise en Template de la machine pour déploiement (Golden Image)
+
+Mise en backup machine
